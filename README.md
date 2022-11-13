@@ -91,4 +91,26 @@ module.exports = {
 }
 ```
 
-10. Create source code directory `src` with `index.html` and `index.ts`
+9. Create source code directory **src** with **index.ts**
+
+```
+alert ('Hello typescript with Webpack!')
+```
+
+10. Create **public** directory with **index.html**
+
+```
+<html>
+    <body>
+        <script src="bundle.js"></script>
+    </body>
+</html>
+```
+
+11. Build project
+
+    `npm run build`
+    
+12. Run project on webpack development server
+
+    `npm run serve`
